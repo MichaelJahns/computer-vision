@@ -2,33 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1311702c-e3f2-4952-ae57-5eff1096f5a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/computer-vision/matchTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/tester/grayHay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/tester/grayNeedle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matchTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/matched_TM_CCOEFF_NORMED_RGB2BGR_matchTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/matched_TM_CCOEFF_NORMED_blurred_matchTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/matched_TM_CCOEFF_NORMED_grayscale_matchTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/matched_TM_CCOEFF_base_matchTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/matched_TM_CCOEFF_grayscale_matchTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/matched_TM_CCORR_NORMED_RGB2BGR_matchTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/matched_TM_CCORR_NORMED_base_matchTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/matched_TM_CCORR_RGB2BGR_matchTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/matched_TM_CCORR_base_matchTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/matched_TM_SQDIFF_NORMED_RGB2BGR_matchTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/differenceMaps/matchTemplate0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/differenceMaps/matchTemplate0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/differenceMaps/matchTemplate1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/differenceMaps/matchTemplate1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/differenceMaps/matchTemplate2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/differenceMaps/matchTemplate2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/differenceMaps/matchTemplate3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/differenceMaps/matchTemplate3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/differenceMaps/matchTemplate4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/differenceMaps/matchTemplate4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/differenceMaps/matchTemplate5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/differenceMaps/matchTemplate5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/differenceMaps/threshold0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/differenceMaps/threshold1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/differenceMaps/threshold2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/differenceMaps/threshold3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/computer-vision/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/computer-vision/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDallC1_0-255_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDallC1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDresult_copy_source.jpg_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDresult_copy_source_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFallC1_0-255_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFallC1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFresult_copy_source.jpg_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFresult_copy_source_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDallC1_0-255_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDallC1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDresult_copy_source.jpg_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDresult_copy_source_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRallC1_0-255_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRallC1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRresult_copy_source.jpg_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRresult_copy_source_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDallC1_0-255_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDallC1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDresult_copy_source.jpg_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDresult_copy_source_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFallC1_0-255_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFallC1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFresult_copy_source.jpg_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFresult_copy_source_result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1Source.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1Template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1_0-255Source.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1_0-255Template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1_0-255preResult.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1preResult.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C1Source.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C1Template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C1preResult.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C3Source.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C3Template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C3preResult.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C1Source.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C1Template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C1preResult.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C3Source.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C3Template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C3preResult.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_source.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_source.jpg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_source.jpgTemplate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_source.jpgpreResult.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_sourceSource.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_sourceTemplate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_sourcepreResult.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matchTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matchTemplate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/matchTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+            <state relative-caret-position="238">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -425,8 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/matchTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

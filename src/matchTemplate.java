@@ -12,15 +12,13 @@ public class matchTemplate {
 
 
     public static void runner(){
-        trial = "allC1_0-255";
-        String haystackPath = "images/albion_farm.jpg";
+        trial = "_desert";
+        String haystackPath = "images/desert.jpg";
         Mat source = Imgcodecs.imread(haystackPath);
-        HighGui.imshow("source", source);
-        HighGui.waitKey();
         source.convertTo(source, CvType.CV_8UC1);
         printSource(source);
 
-        String needlePath = "images/albion_cabbage.jpg";
+        String needlePath = "images/drops.jpg";
         Mat template = Imgcodecs.imread(needlePath);
         template.convertTo(template, CvType.CV_8UC1);
         printTemplate(template);

@@ -1,11 +1,10 @@
-import org.opencv.core.Core;
-import org.opencv.core.Mat;
-import org.opencv.core.Point;
-import org.opencv.core.Scalar;
+import org.opencv.core.*;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
+import org.opencv.utils.Converters;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Main {
@@ -28,8 +27,45 @@ public class Main {
         Mat template = Imgcodecs.imread(needlePath);
 
         List<Mat> allMatchAlgorithms = matchTemplate.runner(source, template);
-        List<Mat> bestMatches = findBestMatch(source, allMatchAlgorithms);
-        matchTemplate.writeListOfMats(bestMatches, "Best match");
+        matchTemplate.writeListOfMats(allMatchAlgorithms, "preprocess");
+        List<Mat> thresheldMats = thresholdStab(allMatchAlgorithms);
+
+        List<MatOfPoint> contours = findContoursFromThresholdMat(thresheldMats.get(5));
+        Iterator<MatOfPoint> each = contours.iterator();
+        Mat dst = new Mat();
+        source.copyTo(dst);
+
+        while (each.hasNext()) {
+            MatOfPoint match = each.next();
+            List<Point> points = new ArrayList<>();
+            Converters.Mat_to_vector_Point(match, points);
+
+            for (Point p : points) {
+                drawRectangle(dst, p, 1);
+            }
+        }
+        matchTemplate.writeMat(dst, "Rectangled");
+
+    }
+
+    public static List<Mat> thresholdStab(List<Mat> matList) {
+        List<Mat> thresheldMats = new ArrayList<>();
+        int i = 0;
+        for (Mat mat : matList) {
+            Mat output = new Mat();
+            Imgproc.threshold(mat, output, 155, 255, Imgproc.THRESH_TOZERO);
+            thresheldMats.add(output);
+            i++;
+        }
+        return thresheldMats;
+    }
+
+    public static List<MatOfPoint> findContoursFromThresholdMat(Mat mat) {
+        List<MatOfPoint> contours = new ArrayList<MatOfPoint>();
+        Mat hierarchy = new Mat();
+        Imgproc.findContours(mat, contours, hierarchy, Imgproc.RETR_EXTERNAL, Imgproc.CHAIN_APPROX_SIMPLE);
+        hierarchy.release();
+        return contours;
     }
 
     public static List<Mat> findBestMatch(Mat source, List<Mat> matList) {

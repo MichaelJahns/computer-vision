@@ -2,79 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1311702c-e3f2-4952-ae57-5eff1096f5a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDallC1_0-255_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDallC1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDresult_copy_source.jpg_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFF_NORMEDresult_copy_source_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFallC1_0-255_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFallC1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFresult_copy_source.jpg_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCOEFFresult_copy_source_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDallC1_0-255_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDallC1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDresult_copy_source.jpg_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORR_NORMEDresult_copy_source_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRallC1_0-255_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRallC1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRresult_copy_source.jpg_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_CCORRresult_copy_source_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDallC1_0-255_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDallC1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDresult_copy_source.jpg_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFF_NORMEDresult_copy_source_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFallC1_0-255_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFallC1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFnormalizeResult_0-1_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFnormalizeResult_0-1_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFnormalizeResult_Cv_8C1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFnormalizeResult_Cv_8C3_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFresult_copy_source.jpg_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/TM_SQDIFFresult_copy_source_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1Source.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1Template.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1_0-255Source.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1_0-255Template.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1_0-255preResult.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/allC1preResult.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C1Source.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C1Template.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C1preResult.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C3Source.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C3Template.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_0-1_Cv_8C3preResult.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C1Source.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C1Template.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C1preResult.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C3Source.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C3Template.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/normalizeResult_Cv_8C3preResult.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_source.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_source.jpg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_source.jpgTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_source.jpgpreResult.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_sourceSource.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_sourceTemplate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/algorithms/result_copy_sourcepreResult.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/computer-vision/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/computer-vision/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/computer-vision/matchTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/computer-vision/matchTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/tester/grayHay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/tester/grayNeedle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/matchTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matchTemplate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -89,11 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/matchTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="1127">
+              <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/imgproc/Imgproc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126820">
-              <caret line="7514" column="48" selection-start-line="7514" selection-start-column="48" selection-end-line="7514" selection-end-column="48" />
+            <state relative-caret-position="501">
+              <caret line="8276" column="23" selection-start-line="8276" selection-start-column="23" selection-end-line="8276" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -149,16 +95,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/JFrameGraphics.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/matchTemplate.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="949" />
-    <option name="y" value="-11" />
-    <option name="width" value="983" />
-    <option name="height" value="1043" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="948" />
+    <option name="y" value="-12" />
+    <option name="width" value="984" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -167,6 +113,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,25 +134,12 @@
             <path>
               <item name="computer-vision" type="b2602c69:ProjectViewProjectNode" />
               <item name="computer-vision" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="computer-vision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="computer-vision" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="tester" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="computer-vision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="computer-vision" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,7 +148,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -269,10 +203,40 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="633" y="-7" width="655" height="695" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.23319837" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3268206" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39253998" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="IDEtalk Messages" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="IDEtalk" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23319837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,60 +264,21 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="IDEtalk" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17651822" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3268206" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39253998" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="IDEtalk Messages" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="IDEtalk" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/highgui/HighGui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-          <folding>
-            <element signature="e#3362#3363#0" expanded="true" />
-            <element signature="e#3388#3389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/computer-vision.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/core/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/needle.jpg" />
     <entry file="file://$PROJECT_DIR$/images/beach.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -413,41 +338,9 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/algorithms/UNaltered template.jpg" />
-    <entry file="file://$PROJECT_DIR$/out/algorithms/CV_8UconvertedTemplate.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/algorithms/CV_8UC1convertedTemplate.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/algorithms/alteredCOLOR_BGR2GRAY.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/albion_cabbage.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/albion_farm.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/imgproc/Imgproc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126820">
-          <caret line="7514" column="48" selection-start-line="7514" selection-start-column="48" selection-end-line="7514" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/differenceMaps/matchTemplate4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/algorithms/CV_8UconvertedTemplate.jpg" />
+    <entry file="file://$PROJECT_DIR$/out/algorithms/CV_8UC1convertedTemplate.jpg" />
+    <entry file="file://$PROJECT_DIR$/out/algorithms/alteredCOLOR_BGR2GRAY.jpg" />
     <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/core/CvType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-884">
@@ -470,10 +363,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/albion_cabbage.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/albion_farm.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/differenceMaps/matchTemplate4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/tester/TM_SQDIFF_NORMED_desert_result.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/tester/0Normalization_result.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/tester/1Normalization_result.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/imgproc/Imgproc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="8276" column="23" selection-start-line="8276" selection-start-column="23" selection-end-line="8276" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/matchTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="1127">
+          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

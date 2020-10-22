@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1311702c-e3f2-4952-ae57-5eff1096f5a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VideoCapture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/computer-vision/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/computer-vision/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_0Best match.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_10Best match.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_11Best match.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_1Best match.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_2Best match.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_3Best match.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_4Best match.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_5Best match.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_6Best match.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_7Best match.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_8Best match.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_9Best match.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/computer-vision/matchTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/computer-vision/matchTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_0preprocess.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/tester/algorithm_0preprocess.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_1preprocess.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/tester/algorithm_1preprocess.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_2preprocess.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/tester/algorithm_2preprocess.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_3preprocess.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/tester/algorithm_3preprocess.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_4preprocess.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/tester/algorithm_4preprocess.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_5preprocess.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/tester/algorithm_5preprocess.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/tester/algorithm_Rectangled.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/tester/algorithm_Rectangled.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matchTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatchTemplate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,9 +30,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/matchTemplate.java">
+        <entry file="file://$PROJECT_DIR$/src/MatchTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
+            <state relative-caret-position="1275">
               <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -42,15 +41,66 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+            <state relative-caret-position="799">
+              <caret line="47" selection-start-line="47" selection-start-column="2" selection-end-line="53" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1462#1474#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/VideoCapture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/imageio/ImageIO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5653">
+              <caret line="592" column="76" selection-start-line="592" selection-start-column="76" selection-end-line="592" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/awt/Robot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="449" selection-start-line="449" selection-end-line="449" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/core/MatOfRect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/objdetect/Objdetect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -81,10 +131,11 @@
         <option value="$PROJECT_DIR$/src/JFrameGraphics.java" />
         <option value="$PROJECT_DIR$/src/matchTemplate.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/VideoCapture.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="949" />
     <option name="width" value="980" />
     <option name="height" value="1031" />
@@ -95,8 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,17 +161,14 @@
             <path>
               <item name="computer-vision" type="b2602c69:ProjectViewProjectNode" />
               <item name="computer-vision" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="computer-vision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="computer-vision" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.VideoCapture">
     <configuration name="JFrameGraphics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JFrameGraphics" />
       <module name="computer-vision" />
@@ -165,8 +211,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VideoCapture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VideoCapture" />
+      <module name="computer-vision" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VideoCapture" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.JFrameGraphics" />
       </list>
@@ -186,10 +240,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="633" y="0" width="653" height="687" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23319837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11417004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -198,8 +252,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32612613" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3981982" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32149202" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -207,7 +261,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32792792" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -249,19 +303,28 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/imageio/ImageIO.java</url>
+          <line>1606</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/imageio/ImageIO.java</url>
+          <line>1607</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/computer_vision$VideoCapture.ic" NAME="VideoCapture Coverage Results" MODIFIED="1603404419027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/beach.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/needle.gif" />
-    <entry file="file://$PROJECT_DIR$/images/furseal.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/differenceMaps/difference.jpg" />
-    <entry file="file://$PROJECT_DIR$/out/differenceMaps/threshold.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/screenChaos000.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/screenChaos001.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/screenChaos002.jpg" />
     <entry file="file://$PROJECT_DIR$/images/screenChaos003.jpg" />
     <entry file="file://$PROJECT_DIR$/images/screenChaos004.jpg" />
     <entry file="file://$PROJECT_DIR$/images/drops.jpg">
@@ -298,12 +361,8 @@
     <entry file="file://$PROJECT_DIR$/out/differenceMaps/matchTemplate0.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/tester/grayNeedle.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/tester/grayHay.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/tester/grayNeedle.jpg" />
+    <entry file="file://$PROJECT_DIR$/out/tester/grayHay.jpg" />
     <entry file="file://$PROJECT_DIR$/out/differenceMaps/matchTemplate5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -318,15 +377,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/tester/TM_SQDIFF_NORMED_desert_result.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/tester/0Normalization_result.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/tester/1Normalization_result.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/tester/TM_SQDIFF_NORMED_desert_result.jpg" />
+    <entry file="file://$PROJECT_DIR$/out/tester/0Normalization_result.jpg" />
+    <entry file="file://$PROJECT_DIR$/out/tester/1Normalization_result.jpg" />
     <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/core/Mat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -371,9 +424,9 @@
     <entry file="file://$PROJECT_DIR$/images/albion_cabbage.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/matchTemplate.java">
+    <entry file="file://$PROJECT_DIR$/src/MatchTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
+        <state relative-caret-position="1275">
           <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -381,13 +434,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/core/MatOfRect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/objdetect/Objdetect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/awt/image/RenderedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/awt/image/WritableRenderedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/awt/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="449" selection-start-line="449" selection-end-line="449" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5653">
+          <caret line="592" column="76" selection-start-line="592" selection-start-column="76" selection-end-line="592" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+        <state relative-caret-position="799">
+          <caret line="47" selection-start-line="47" selection-start-column="2" selection-end-line="53" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1462#1474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VideoCapture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

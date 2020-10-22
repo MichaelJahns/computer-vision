@@ -20,14 +20,14 @@ public class Main {
         maxThreshold = .80;
         minThreshold = .20;
 
-        String haystackPath = "images/albion_farm.jpg";
+        String haystackPath = "images/desert.jpg";
         Mat source = Imgcodecs.imread(haystackPath);
 
-        String needlePath = "images/albion_cabbage.jpg";
+        String needlePath = "images/drops.jpg";
         Mat template = Imgcodecs.imread(needlePath);
 
-        List<Mat> allMatchAlgorithms = matchTemplate.runner(source, template);
-        matchTemplate.writeListOfMats(allMatchAlgorithms, "preprocess");
+        List<Mat> allMatchAlgorithms = MatchTemplate.runner(source, template);
+        MatchTemplate.writeListOfMats(allMatchAlgorithms, "preprocess");
         List<Mat> thresheldMats = thresholdStab(allMatchAlgorithms);
 
         List<MatOfPoint> contours = findContoursFromThresholdMat(thresheldMats.get(5));
@@ -44,7 +44,15 @@ public class Main {
                 drawRectangle(dst, p, 1);
             }
         }
-        matchTemplate.writeMat(dst, "Rectangled");
+        // Pseudo code
+//        while (capturing)
+//        {
+//            grab bufferedImage (screenCapture) from screen
+//            convert bufferImage to byte array
+//            start asynchronous file channel to write to the output file
+//            and add the future reference (return value) to the ArrayList
+//        }
+        MatchTemplate.writeMat(dst, "Rectangled");
 
     }
 
@@ -103,7 +111,7 @@ public class Main {
         Imgproc.rectangle(
                 source,
                 location,
-                new Point(location.x + matchTemplate.nWidth, location.y + matchTemplate.nHeight),
+                new Point(location.x + MatchTemplate.nWidth, location.y + MatchTemplate.nHeight),
                 new Scalar(R, G, B),
                 5
         );

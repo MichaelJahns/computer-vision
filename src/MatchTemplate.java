@@ -7,7 +7,7 @@ import org.opencv.imgproc.Imgproc;
 import java.util.ArrayList;
 import java.util.List;
 
-public class matchTemplate {
+public class MatchTemplate {
     public static int nWidth;
     public static int nHeight;
     public static String trial;

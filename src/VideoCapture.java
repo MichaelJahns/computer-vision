@@ -25,30 +25,26 @@ public class VideoCapture {
     }
 
     public static void screenRecordBenchmark(Robot robot) {
-        int i = 0;
+        long loopTime = System.currentTimeMillis();
         while (true) {
             BufferedImage bi = squish(robot);
             Mat mat = img2Mat(bi);
             HighGui.imshow("Screencap", mat);
             HighGui.waitKey(1);
-            System.out.println(i);
-            i++;
-        }
-    }
-
-    public static void capture(Robot robot, String newFileName, String newFileFormat) {
-        BufferedImage bi = squish(robot);
-        Mat mat = img2Mat(bi);
-        try {
-            HighGui.imshow("Screen Cap", mat);
-            HighGui.waitKey();
-        } catch (Exception e) {
-            System.out.println(e);
+            long msDelTime = System.currentTimeMillis() - loopTime;
+            double sDelTime = ((msDelTime * .001));
+            double FPS = 1 / sDelTime;
+            System.out.println(FPS);
+            loopTime = System.currentTimeMillis();
+            if (HighGui.pressedKey == 4) {
+                HighGui.destroyAllWindows();
+            }
         }
     }
 
     public static BufferedImage squish(Robot robot) {
-        Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+
+        Rectangle screenRect = new Rectangle(500, 500, 500, 500);
         final BufferedImage screenFullImage = robot.createScreenCapture(screenRect);
         return screenFullImage;
     }

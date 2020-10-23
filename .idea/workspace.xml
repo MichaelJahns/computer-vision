@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1311702c-e3f2-4952-ae57-5eff1096f5a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ScreenCaptureManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ScreenCaptureRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JNAstab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/computer-vision/VideoCapture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/computer-vision/VideoCapture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/computer-vision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/computer-vision.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/computer-vision/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/computer-vision/ScreenCaptureManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/computer-vision/ScreenCaptureRobot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/computer-vision/VideoCapture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/computer-vision/matchTemplate.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VideoCapture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VideoCapture.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,22 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VideoCapture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="110">
+              <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,13 +37,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ScreenCaptureRobot.java">
+        <entry file="file://$PROJECT_DIR$/src/JNAstab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="170">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/../../../JARS/jna-5.6.0.jar!/com/sun/jna/Native.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="320" column="16" lean-forward="true" selection-start-line="320" selection-start-column="16" selection-end-line="320" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/highgui/HighGui.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -64,24 +73,6 @@
               <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/core/Mat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#4549#4550#0" expanded="true" />
-                <element signature="e#4617#4618#0" expanded="true" />
-                <element signature="e#5744#5745#0" expanded="true" />
-                <element signature="e#5784#5785#0" expanded="true" />
-                <element signature="e#6353#6354#0" expanded="true" />
-                <element signature="e#6411#6412#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,13 +152,14 @@
         <option value="$PROJECT_DIR$/src/ScreenCaptureRobot.java" />
         <option value="$PROJECT_DIR$/src/ScreenCaptureManager.java" />
         <option value="$PROJECT_DIR$/src/VideoCapture.java" />
+        <option value="$PROJECT_DIR$/src/JNAstab.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="x" value="949" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,7 +194,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JARS/jna-5.6.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -225,9 +217,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VideoCapture">
+  <component name="RunManager" selected="Application.JNAstab">
     <configuration name="JFrameGraphics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JFrameGraphics" />
+      <module name="computer-vision" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JNAstab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JNAstab" />
       <module name="computer-vision" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -249,6 +248,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JNAstab" />
         <item itemvalue="Application.VideoCapture" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.JFrameGraphics" />
@@ -272,7 +272,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11417004" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2834008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -290,7 +290,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3268206" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3268206" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -347,12 +347,6 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/VideoCapture.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -360,11 +354,6 @@
     <SUITE FILE_PATH="coverage/computer_vision$VideoCapture.ic" NAME="VideoCapture Coverage Results" MODIFIED="1603404419027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/differenceMaps/matchTemplate.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/desert.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/differenceMaps/threshold1.jpg" />
     <entry file="file://$PROJECT_DIR$/out/differenceMaps/threshold0.jpg" />
     <entry file="file://$PROJECT_DIR$/out/differenceMaps/threshold2.jpg" />
     <entry file="file://$PROJECT_DIR$/out/differenceMaps/threshold3.jpg" />
@@ -555,13 +544,37 @@
     <entry file="file://$PROJECT_DIR$/pop.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="jar://$USER_HOME$/opencv/opencv/build/java/opencv-440.jar!/org/opencv/highgui/HighGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/VideoCapture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="110">
+          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JNAstab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../JARS/jna-5.6.0.jar!/com/sun/jna/Native.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="320" column="16" lean-forward="true" selection-start-line="320" selection-start-column="16" selection-end-line="320" selection-end-column="16" />
         </state>
       </provider>
     </entry>

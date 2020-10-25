@@ -1,120 +1,56 @@
-import org.opencv.core.*;
-import org.opencv.imgcodecs.Imgcodecs;
+import com.sun.jna.platform.win32.WinDef;
+import org.opencv.core.Core;
+import org.opencv.core.Mat;
+import org.opencv.highgui.HighGui;
 import org.opencv.imgproc.Imgproc;
-import org.opencv.utils.Converters;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.awt.*;
+import java.awt.image.BufferedImage;
 
 public class Main {
     static {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
     }
 
+    public static Vision vision;
     public static double maxThreshold;
     public static double minThreshold;
 
     public static void main(String args[]) {
-        System.out.println(Core.VERSION);
-        maxThreshold = .80;
-        minThreshold = .20;
-
-        String haystackPath = "images/desert.jpg";
-        Mat source = Imgcodecs.imread(haystackPath);
-
         String needlePath = "images/drops.jpg";
-        Mat template = Imgcodecs.imread(needlePath);
+        int mAlgorithm = Imgproc.TM_CCOEFF_NORMED;
+        vision = new Vision(needlePath, mAlgorithm);
+        try {
+            Robot robot = new Robot();
+            run(robot);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
 
-        List<Mat> allMatchAlgorithms = MatchTemplate.runner(source, template);
-        MatchTemplate.writeListOfMats(allMatchAlgorithms, "preprocess");
-        List<Mat> thresheldMats = thresholdStab(allMatchAlgorithms);
+    }
 
-        List<MatOfPoint> contours = findContoursFromThresholdMat(thresheldMats.get(5));
-        Iterator<MatOfPoint> each = contours.iterator();
-        Mat dst = new Mat();
-        source.copyTo(dst);
+    public static void run(Robot robot) {
+        WinDef.HWND windowHandle = Win32.findWindowHandle();
+        Win32.moveToFront(windowHandle);
 
-        while (each.hasNext()) {
-            MatOfPoint match = each.next();
-            List<Point> points = new ArrayList<>();
-            Converters.Mat_to_vector_Point(match, points);
+        long loopTime = System.currentTimeMillis();
+        while (true) {
+            BufferedImage bi = VideoCapture.captureBIFromScreen(robot);
+            Mat mat = VideoCapture.img2Mat(bi);
+            Mat processed = vision.findClickPoints(mat, vision.needleMat);
 
-            for (Point p : points) {
-                drawRectangle(dst, p, 1);
+            HighGui.imshow("processed", processed);
+            HighGui.waitKey(1);
+            long msDelTime = System.currentTimeMillis() - loopTime;
+            double sDelTime = ((msDelTime * .001));
+            double FPS = 1 / sDelTime;
+//            System.out.println(FPS);
+            loopTime = System.currentTimeMillis();
+            if (HighGui.pressedKey == 4) {
+                HighGui.destroyAllWindows();
             }
         }
-        // Pseudo code
-//        while (capturing)
-//        {
-//            grab bufferedImage (screenCapture) from screen
-//            convert bufferImage to byte array
-//            start asynchronous file channel to write to the output file
-//            and add the future reference (return value) to the ArrayList
-//        }
-        MatchTemplate.writeMat(dst, "Rectangled");
-
     }
 
-    public static List<Mat> thresholdStab(List<Mat> matList) {
-        List<Mat> thresheldMats = new ArrayList<>();
-        int i = 0;
-        for (Mat mat : matList) {
-            Mat output = new Mat();
-            Imgproc.threshold(mat, output, 155, 255, Imgproc.THRESH_TOZERO);
-            thresheldMats.add(output);
-            i++;
-        }
-        return thresheldMats;
-    }
 
-    public static List<MatOfPoint> findContoursFromThresholdMat(Mat mat) {
-        List<MatOfPoint> contours = new ArrayList<MatOfPoint>();
-        Mat hierarchy = new Mat();
-        Imgproc.findContours(mat, contours, hierarchy, Imgproc.RETR_EXTERNAL, Imgproc.CHAIN_APPROX_SIMPLE);
-        hierarchy.release();
-        return contours;
-    }
-
-    public static List<Mat> findBestMatch(Mat source, List<Mat> matList) {
-        List<Mat> maxMatches = new ArrayList<>();
-        for (Mat mat : matList) {
-            Core.MinMaxLocResult mmr = Core.minMaxLoc(mat);
-            Mat temp = new Mat();
-            source.copyTo(temp);
-            if (mmr.maxVal > maxThreshold) {
-                Point matchMax = mmr.maxLoc;
-                Mat max = drawRectangle(temp, matchMax, 1);
-                maxMatches.add(max);
-            }
-            if (mmr.minVal < minThreshold) {
-                Point matchMin = mmr.minLoc;
-                Mat min = drawRectangle(temp, matchMin, 2);
-                maxMatches.add(min);
-            }
-        }
-        return maxMatches;
-    }
-
-    public static Mat drawRectangle(Mat source, Point location, int color) {
-        int B = 0;
-        int G = 0;
-        int R = 0;
-        switch (color) {
-            case 0:
-                B = 255;
-            case 1:
-                G = 255;
-            case 2:
-                R = 225;
-        }
-        Imgproc.rectangle(
-                source,
-                location,
-                new Point(location.x + MatchTemplate.nWidth, location.y + MatchTemplate.nHeight),
-                new Scalar(R, G, B),
-                5
-        );
-        return source;
-    }
 }

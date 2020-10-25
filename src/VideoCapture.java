@@ -1,7 +1,6 @@
 import org.opencv.core.Core;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
-import org.opencv.highgui.HighGui;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -11,40 +10,8 @@ public class VideoCapture {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
     }
 
-    public static void main(String args[]) {
-        String fileName = "pop.jpg";
-        String format = "jpg";
-        try {
-            Robot robot = new Robot();
-//            capture(robot, fileName, format);
-            screenRecordBenchmark(robot);
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-
-    }
-
-    public static void screenRecordBenchmark(Robot robot) {
-        long loopTime = System.currentTimeMillis();
-        while (true) {
-            BufferedImage bi = squish(robot);
-            Mat mat = img2Mat(bi);
-            HighGui.imshow("Screencap", mat);
-            HighGui.waitKey(1);
-            long msDelTime = System.currentTimeMillis() - loopTime;
-            double sDelTime = ((msDelTime * .001));
-            double FPS = 1 / sDelTime;
-            System.out.println(FPS);
-            loopTime = System.currentTimeMillis();
-            if (HighGui.pressedKey == 4) {
-                HighGui.destroyAllWindows();
-            }
-        }
-    }
-
-    public static BufferedImage squish(Robot robot) {
-
-        Rectangle screenRect = new Rectangle(500, 500, 500, 500);
+    public static BufferedImage captureBIFromScreen(Robot robot) {
+        Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
         final BufferedImage screenFullImage = robot.createScreenCapture(screenRect);
         return screenFullImage;
     }

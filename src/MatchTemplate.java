@@ -69,6 +69,13 @@ public class MatchTemplate {
     }
 
     //Match Template Algorithms
+    public static Mat matchProgramatically(Mat source, Mat template, int mAlgorithm) {
+        Mat output = new Mat();
+        Imgproc.matchTemplate(source, template, output, mAlgorithm);
+        output = normalizeMat(output);
+        return output;
+    }
+
     public static Mat matchByTM_SQDIFF(Mat source, Mat template, Mat matchTemplate) {
         int machMethod = Imgproc.TM_SQDIFF;
         Imgproc.matchTemplate(source, template, matchTemplate, machMethod);
